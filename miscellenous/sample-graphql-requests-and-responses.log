@@ -108,3 +108,8 @@ usersToQuery: kbalachandran,aalagappan,adeo,amanojkumar,sthottamkara,smohan,nrav
         },
     "operationName":"CalendarEvents"
 }
+
+
+{"query":"query CalendarEvents($startDatetimeGte: Date, $startDatetimeLte: Date, $employeeIdIn: [String!]) { calendarEvents( startDatetimeGte: $startDatetimeGte,  startDatetimeLte: $startDatetimeLte,  employeeIdIn: $employeeIdIn) { items { id type {id name } createdBy creationDate confirmedBy  description startDatetime endDatetime  employee{id displayName emailAddress}  } } }","variables":{"employeeIdIn":["sdegroot"],"startDatetimeGte":"2023-09-01","startDatetimeLte":"2023-09-30"},"operationName":"CalendarEvents"}
+
+{"query":"query CalendarEvents($startDatetimeGte: Date, $startDatetimeLte: Date, $employeeIdIn: [String!]) { calendarEvents( startDatetimeGte: $startDatetimeGte,  startDatetimeLte: $startDatetimeLte,  employeeIdIn: $employeeIdIn) { items { id type {id name } createdBy creationDate confirmedBy  description startDatetime endDatetime  employee{id displayName emailAddress}  } } }","variables":{"employeeIdIn":["sdegroot"],"startDatetimeGte":"2023-09-01","startDatetimeLte":"2023-09-30"},"operationName":"CalendarEvents"}

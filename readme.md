@@ -110,3 +110,10 @@ Currently, we don't have permission to create project in our atlassian's gmail b
 
 ## Play sheet
 [Sheet](https://docs.google.com/spreadsheets/d/1rF87sKjHMW8wH-2VR-ORl6diPSlK6a3wjJt4ZbvhcRI/edit#gid=812939268)
+
+
+## How to run?
+```node
+# Once the set up is done, you can navigate to vega directory and run the below command
+node findVegaDataToPush.js 
+```

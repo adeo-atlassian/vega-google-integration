@@ -13,8 +13,6 @@ async function callVega(query) {
 
 
     let url = `${properties.get("VEGA_URL")}`
-    let ret = {}
-
     let config =    { 
     headers: {
         'Content-Type': 'application/json',
@@ -50,7 +48,6 @@ async function callVega(query) {
 }
 
 /*
-
 // uncomment this section to test
 const postData = {
     "query":"query CustomQuery($id: ID!){employee(id: $id){displayName location}}",
@@ -66,7 +63,5 @@ callVega(postData).then(function(response){
 
 })
 */
-
-
 
 module.exports = { callVega }
